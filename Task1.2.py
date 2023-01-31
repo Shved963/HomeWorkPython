@@ -8,11 +8,12 @@
 # 60 >>> 10  40  10
 # s = x+x+4x
 
-count_cranes = 12
+# count_cranes = 12
+count_cranes = int(input('Введите кол-во сделаных журавликов '))
 min_cranes = 6
 if count_cranes % min_cranes == 0:
     cranes_petia = cranes_sereja = count_cranes//min_cranes
     cranes_katia = (cranes_petia + cranes_sereja)*2
-    print(f'{count_cranes} >>> Петя ({cranes_petia}) Катя ({cranes_katia}) Сережа ({cranes_sereja})')
+    print(f'{count_cranes} >>> Петя {cranes_petia} Катя {cranes_katia} Сережа {cranes_sereja}')
 else:
     print('Данное кол-во журавликов нельзя разделить по условию задачи')
