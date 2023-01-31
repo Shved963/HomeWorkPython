@@ -10,7 +10,9 @@
 # (*) Усложнение. Вывод результат на экран сделайте одной строкой(только один print),
 # для этого используйте тернарный оператор
 
-num_ticket = 123456
+# num_ticket = 123456
+
+num_ticket = int(input('Введите номер билета '))
 first_num = num_ticket//1000
 second_num = num_ticket % 1000
 first_sum = 0
